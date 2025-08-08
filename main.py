@@ -5,6 +5,5 @@ from PIL import Image
 
 st.title('Zmerzliak for today')
 new_todo= st.text_input(label='Enter text', key='new_todo' )
-st.image("rr.jpg")
-
+st.image("/rr.JPG", use_column_width=True)
 send_email(message=new_todo)
